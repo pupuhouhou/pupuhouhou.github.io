@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 
@@ -27,7 +27,7 @@
 	<body>
 
 		<!-- HEADER : begin -->
-		<header id="header" class="m-standard m-enable-fixed m-fixed-bg">
+		<header id="header" class="m-large m-enable-fixed m-fixed-bg">
 			<div class="header-inner">
 				<div class="container">
 
@@ -37,9 +37,9 @@
 						<!-- HEADER BRANDING : begin -->
 						<div class="header-branding">
 							<div class="header-branding-inner">
-								<a href="index.html"><img src="images/logo-alt.png" width="158" height="60" alt="Vibes"
-									data-hires="images/logo-alt.2x.png" data-fixed="images/logo-alt-fixed.png" data-fixed-hires="images/logo-alt-fixed.2x.png"
-									data-fixed-height="50"></a>
+								<a href="index.html"><img src="images/logo-large.png" width="230" height="230" alt="Vibes"
+									data-hires="images/logo-large.2x.png" data-fixed="images/logo.png" data-fixed-hires="images/logo.2x.png"
+									data-fixed-width="52" data-fixed-height="52"></a>
 							</div>
 						</div>
 						<!-- HEADER BRANDING : end -->
@@ -50,15 +50,78 @@
 								<li class="m-active">
 									<a href="index.html">Home</a>
 									<ul>
-										<li><a href="index.html">Default Home</a></li>
+										<li class="m-active"><a href="index.html">Default Home</a></li>
 										<li><a href="home-blog.html">Blog Home</a></li>
-										<li class="m-active"><a href="home-onepage.html">One Page</a></li>
+										<li><a href="home-onepage.html">One Page</a></li>
 									</ul>
 								</li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#references">References</a></li>
-								<li><a href="#testimonials">Testimonials</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li>
+									<a href="portfolio-list-grid.html">Portfolio</a>
+									<ul>
+										<li>
+											<a href="portfolio-list-grid.html">Project List</a>
+											<ul>
+												<li><a href="portfolio-list-grid.html">Grid List</a></li>
+												<li><a href="portfolio-list-masonry.html">Masonry List</a></li>
+												<li><a href="portfolio-list-grid-frames.html">Grid List (frames)</a></li>
+												<li><a href="portfolio-list-grid-lightbox.html">Grid List (lightbox)</a></li>
+												<li><a href="portfolio-list-grid-modal.html">Grid List (modal)</a></li>
+												<li><a href="portfolio-list-grid-ajaxed.html">Ajaxed Grid List</a></li>
+												<li><a href="portfolio-list-grid-ajaxed-lightbox.html">Ajaxed Grid List (lightbox)</a></li>
+												<li><a href="portfolio-list-grid-ajaxed-modal.html">Ajaxed Grid List (modal)</a></li>
+												<li><a href="portfolio-list-grid-boxed.html">Boxed Grid List</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="portfolio-detail-slider-top.html">Detail with Slider</a>
+											<ul>
+												<li><a href="portfolio-detail-slider-top.html">Slider on Top</a></li>
+												<li><a href="portfolio-detail-slider-bottom.html">Slider on Bottom</a></li>
+												<li><a href="portfolio-detail-slider-top-boxed.html">Slider on Top (boxed)</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="portfolio-detail-list-top.html">Detail with List</a>
+											<ul>
+												<li><a href="portfolio-detail-list-top.html">List on Top</a></li>
+												<li><a href="portfolio-detail-list-bottom.html">List on Bottom</a></li>
+												<li><a href="portfolio-detail-list-left.html">List on Left</a></li>
+												<li><a href="portfolio-detail-list-top-boxed.html">List on Top (boxed)</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="portfolio-detail-video.html">Audio / Video</a>
+											<ul>
+												<li><a href="portfolio-detail-video.html">Video Project</a></li>
+												<li><a href="portfolio-detail-video-boxed.html">Video Project (boxed)</a></li>
+												<li><a href="portfolio-detail-audio.html">Audio Project</a></li>
+												<li><a href="portfolio-detail-audio-boxed.html">Audio Project (boxed)</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="blog-list.html">Blog</a>
+									<ul>
+										<li><a href="blog-list.html">Blog List</a></li>
+										<li><a href="blog-post-image.html">Image Post</a></li>
+										<li><a href="blog-post-video.html">Video Post</a></li>
+										<li><a href="blog-post-audio.html">Audio Post</a></li>
+										<li><a href="blog-post-quote.html">Quote Post</a></li>
+										<li><a href="blog-post-link.html">Link Post</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="typography.html">Pages</a>
+									<ul>
+										<li><a href="about-us.html">About Us</a></li>
+										<li><a href="typography.html">Typography</a></li>
+										<li><a href="elements.html">Elements</a></li>
+										<li><a href="search-results.html">Search Results</a></li>
+										<li><a href="404.html">Error 404</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
 						<!-- HEADER MENU : end -->
@@ -79,7 +142,7 @@
 		<div id="body">
 
 			<!-- WRAPPER : begin -->
-			<div id="wrapper">
+			<div id="wrapper" class="m-large-header">
 
 				<!-- CORE : begin -->
 				<div id="core">
@@ -88,56 +151,13 @@
 					<div id="page-content">
 						<div class="various-content">
 
-							<!-- SLIDER : begin -->
-							<div class="c-slider">
-								<div class="slide-list">
-
-									<!-- SLIDE 1 : begin -->
-									<div class="slide" style="background-image: url( 'images/slide_01.jpg' );">
-										<div class="slide-bg">
-											<div class="container">
-												<div class="slide-inner">
-													<div class="slide-content various-content textalign-center valign-bottom">
-
-														<div class="row">
-															<div class="col-sm-10 col-sm-offset-1">
-
-																<h1><a href="blog-post-image.html">HTML Template for Creative Folks and Design Agencies</a></h1>
-																<p class="fontsize-large">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-																<p><a href="#about" class="c-button m-outline">Read More</a></p>
-
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- SLIDE 1 : end -->
-
-								</div>
-							</div>
-							<!-- SLIDER : end -->
-
-							<hr class="c-divider m-x-small m-transparent">
-
-							<!-- ABOUT SECTION : begin -->
-							<section class="c-section" id="about">
+							<!-- FEATURES : begin -->
+							<section class="c-section m-force-margin">
 								<div class="section-inner">
 
 									<div class="container">
 										<div class="row">
 											<div class="col-sm-4">
-
-												<h2>Why Choose Us?</h2>
-												<p class="lead">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet.</p>
-												<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae <a href="#">sapien ut libero</a>.</p>
-
-											</div>
-											<div class="col-sm-4">
-
-												<h2>What You Get?</h2>
 
 												<!-- ICON BLOCK : begin -->
 												<div class="c-icon-block">
@@ -147,6 +167,9 @@
 												</div>
 												<!-- ICON BLOCK : end -->
 
+											</div>
+											<div class="col-sm-4">
+
 												<!-- ICON BLOCK : begin -->
 												<div class="c-icon-block">
 													<i class="fa fa-code"></i>
@@ -154,6 +177,9 @@
 													<p>Very Easy to Read and Customize</p>
 												</div>
 												<!-- ICON BLOCK : end -->
+
+											</div>
+											<div class="col-sm-4">
 
 												<!-- ICON BLOCK : begin -->
 												<div class="c-icon-block">
@@ -164,44 +190,142 @@
 												<!-- ICON BLOCK : end -->
 
 											</div>
-											<div class="col-sm-4">
-
-												<!-- ACCORDION : begin -->
-												<ul class="c-accordion">
-													<li class="m-active">
-														<h3 class="accordion-title">Nulla consequat massa</h3>
-														<div class="accordion-content">
-															<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-														</div>
-													</li>
-													<li>
-														<h3 class="accordion-title">Vivamus elementum semper</h3>
-														<div class="accordion-content">
-															<p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu.</p>
-														</div>
-													</li>
-													<li>
-														<h3 class="accordion-title">Etiam ultricies nisi vel</h3>
-														<div class="accordion-content">
-															<p>Maecenas tempus, tellus eget condi men tum rhoncus.</p>
-														</div>
-													</li>
-												</ul>
-												<!-- ACCORDION : end -->
-
-											</div>
 										</div>
 									</div>
 
 								</div>
 							</section>
-							<!-- ABOUT SECTION : end -->
+							<!-- FEATURES : end -->
 
-							<!-- GALLERY SECTION : begin -->
-							<section class="c-section" id="references">
+							<hr class="c-divider m-negative-small m-transparent">
+
+							<!-- GALLERY : begin -->
+							<section class="c-section">
 								<div class="section-inner">
 
-									<div class="c-gallery" data-layout="masonry">
+									<div class="c-gallery">
+
+										<!-- ITEM LIST : begin -->
+										<ul class="item-list" data-layout="fitRows">
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay m-animated cat-flyers cat-print">
+												<a href="portfolio-detail-list-top.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project"><img src="images/project_01.jpg" alt=""></a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-list-top.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">With Animation</a></h4>
+													<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-list-top.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay m-animated cat-animation">
+												<a href="portfolio-detail-slider-bottom.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project">
+													<img src="images/project_02.jpg" alt="">
+													<img src="images/project_09.jpg" alt="">
+												</a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-slider-bottom.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">Second Image Animated</a></h4>
+													<p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-slider-bottom.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay cat-pixelart">
+												<a href="portfolio-detail-slider-top-boxed.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project">
+													<img src="images/project_03.jpg" alt="">
+													<img src="images/project_10.jpg" alt="">
+												</a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-slider-top-boxed.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">Second Image</a></h4>
+													<p>A small river named Duden flows by their place and supplies it with.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-slider-top-boxed.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay cat-animation">
+												<a href="portfolio-detail-slider-top.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project"><img src="images/project_04.jpg" alt=""></a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-slider-top.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">No Animation</a></h4>
+													<p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-slider-top.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-animated cat-flyers cat-pixelart">
+												<a href="portfolio-detail-list-bottom.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project">
+													<img src="images/project_05.jpg" alt="">
+													<img src="images/project_11.jpg" alt="">
+												</a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-list-bottom.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">No Overlay</a></h4>
+													<p>Even the all-powerful Pointing has no control about the blind texts it is an almost.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-list-bottom.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay cat-animation">
+												<a href="portfolio-detail-list-left.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project"><img src="images/project_06.jpg" alt=""></a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-list-left.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">No Animation</a></h4>
+													<p>One day however a small line of blind text by the name of Lorem Ipsum decided.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-list-left.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay m-animated m-video cat-print">
+												<a href="portfolio-detail-video.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project"><img src="images/project_07.jpg" alt=""></a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-video.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">With Animation</a></h4>
+													<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-video.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+											<!-- ITEM : begin -->
+											<li class="item m-has-overlay cat-animation cat-pixelart">
+												<a href="portfolio-detail-list-top-boxed.html" data-ajax-selector=".portfolio-detail" class="item-image m-open-ajax-modal-project">
+													<img src="images/project_08.jpg" alt="">
+													<img src="images/project_12.jpg" alt="">
+												</a>
+												<div class="item-info">
+													<h4><a href="portfolio-detail-list-top-boxed.html" data-ajax-selector=".portfolio-detail" class="m-open-ajax-modal-project">Second Image</a></h4>
+													<p>Question Marks and devious Semikoli, but the Little Blind Text didn't listen.</p>
+												</div>
+												<div class="item-tools">
+													<a href="portfolio-detail-list-top-boxed.html"><i class="fa fa-link"></i></a>
+												</div>
+											</li>
+											<!-- ITEM : end -->
+
+										</ul>
+										<!-- ITEM LIST : end -->
 
 										<!-- GALLERY TOOLS : begin -->
 										<div class="gallery-tools">
@@ -227,200 +351,78 @@
 										</div>
 										<!-- GALLERY TOOLS : end -->
 
-										<!-- ITEM LIST : begin -->
-										<ul class="item-list">
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation">
-												<a href="images/photo_01.jpg" class="item-image lightbox" title="Adipiscing elit"><img src="images/photo_01.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Adipiscing elit</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-flyers cat-print">
-												<a href="images/photo_02.jpg" class="item-image lightbox" title="Lorem ipsum"><img src="images/photo_02.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Lorem ipsum</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation">
-												<a href="http://vimeo.com/34389736" class="item-image lightbox-video" title="Dolor sit amet"><img src="images/photo_03.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Dolor sit amet</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-flyers cat-pixelart">
-												<a href="images/photo_04.jpg" class="item-image lightbox" title="Aenean commodo"><img src="images/photo_04.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Aenean commodo</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation">
-												<a href="images/photo_05.jpg" class="item-image lightbox" title="Donec quam felis"><img src="images/photo_05.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Donec quam felis</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-pixelart">
-												<a href="images/photo_06.jpg" class="item-image lightbox" title="Consectetuer"><img src="images/photo_06.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Consectetuer</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation">
-												<a href="images/photo_07.jpg" class="item-image lightbox" title="Ligula eget dolor"><img src="images/photo_07.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Ligula eget dolor</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-print">
-												<a href="http://vimeo.com/39493181" class="item-image lightbox-video" title="Aenean massa"><img src="images/photo_08.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Aenean massa</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-flyers cat-print">
-												<a href="images/photo_09.jpg" class="item-image lightbox" title="Penatibus et magnis"><img src="images/photo_09.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Penatibus et magnis</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation cat-pixelart">
-												<a href="images/photo_10.jpg" class="item-image lightbox" title="Sociis natoque"><img src="images/photo_10.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Sociis natoque</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-animation">
-												<a href="images/photo_11.jpg" class="item-image lightbox" title="Dis parturient"><img src="images/photo_11.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Dis parturient</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-											<!-- ITEM : begin -->
-											<li class="item m-has-overlay m-animated cat-pixelart">
-												<a href="images/photo_12.jpg" class="item-image lightbox" title="Nascetur ridiculus"><img src="images/photo_12.jpg" alt=""></a>
-												<div class="item-info">
-													<h4>Nascetur ridiculus</h4>
-												</div>
-											</li>
-											<!-- ITEM : end -->
-
-										</ul>
-										<!-- ITEM LIST : end -->
-
 									</div>
 
 								</div>
 							</section>
-							<!-- GALLERY SECTION : end -->
+							<!-- GALLERY : end -->
 
-							<!-- TESTIMONIALS SECTION : begin -->
-							<section class="c-section" id="testimonials">
+							<!-- SERVICES SECTION : begin -->
+							<section class="c-section">
 								<div class="section-inner">
 
 									<header class="section-header textalign-center">
 										<div class="container">
-											<h2>Client Testimonials</h2>
+											<h2>Enjoy Vibes</h2>
 										</div>
 									</header>
 
 									<div class="container">
 										<div class="row">
-											<div class="col-sm-10 col-sm-offset-1">
+											<div class="col-md-4">
 
-												<!-- TESTIMONIAL : begin -->
-												<div class="c-testimonial m-portrait-on-left" data-inview-anim="fadeInLeft">
-													<div class="testimonial-inner">
-														<p class="testimonial-portrait"><img src="images/client_01.jpg" alt=""></p>
-														<blockquote>
-															<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
-															<footer>
-																<strong>Tommy Mars</strong>, Designer
-															</footer>
-														</blockquote>
+												<!-- SERVICE : begin -->
+												<div class="c-service">
+													<p class="service-image m-animated"><img src="images/service_01.jpg" alt=""></p>
+													<div class="service-ico"><i class="fa fa-rocket"></i></div>
+													<div class="service-content">
+														<h3>Ajax Contact Form</h3>
+														<p>It is a paradisematic country, in which roasted parts of sentences.</p>
+														<p><a href="#" class="c-button m-outline">Learn More</a></p>
 													</div>
 												</div>
-												<!-- TESTIMONIAL : end -->
+												<!-- SERVICE : end -->
 
-												<hr class="c-divider m-large">
+											</div>
+											<div class="col-md-4">
 
-												<!-- TESTIMONIAL : begin -->
-												<div class="c-testimonial m-portrait-on-right" data-inview-anim="fadeInLeft">
-													<div class="testimonial-inner">
-														<p class="testimonial-portrait"><img src="images/client_02.jpg" alt=""></p>
-														<blockquote>
-															<p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-															<footer>
-																<strong>Floor Simons</strong>, Startup CEO
-															</footer>
-														</blockquote>
+												<!-- SERVICE : begin -->
+												<div class="c-service">
+													<p class="service-image m-animated"><img src="images/service_02.jpg" alt=""></p>
+													<div class="service-ico"><i class="fa fa-cloud"></i></div>
+													<div class="service-content">
+														<h3>MailChimp Integration</h3>
+														<p>Far far away, behind the word mountains, far from the countries.</p>
+														<p><a href="#" class="c-button m-outline">Learn More</a></p>
 													</div>
 												</div>
-												<!-- TESTIMONIAL : end -->
+												<!-- SERVICE : end -->
 
-												<hr class="c-divider m-large">
+											</div>
+											<div class="col-md-4">
 
-												<!-- TESTIMONIAL : begin -->
-												<div class="c-testimonial m-portrait-on-left" data-inview-anim="fadeInLeft">
-													<div class="testimonial-inner">
-														<p class="testimonial-portrait"><img src="images/client_03.jpg" alt=""></p>
-														<blockquote>
-															<p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
-															<footer>
-																<strong>Floor Simons</strong>, Startup CEO
-															</footer>
-														</blockquote>
+												<!-- SERVICE : begin -->
+												<div class="c-service">
+													<p class="service-image m-animated"><img src="images/service_03.jpg" alt=""></p>
+													<div class="service-ico"><i class="fa fa-share-alt"></i></div>
+													<div class="service-content">
+														<h3>Social Feeds</h3>
+														<p>A small river named Duden flows by their place and supplies.</p>
+														<p><a href="#" class="c-button m-outline">Learn More</a></p>
 													</div>
 												</div>
-												<!-- TESTIMONIAL : end -->
+												<!-- SERVICE : end -->
 
 											</div>
 										</div>
-
-										<hr class="c-divider m-small m-transparent">
-										<p class="textalign-center"><a href="contact.html" class="c-button m-outline">Become our client</a></p>
-
 									</div>
 
 								</div>
 							</section>
-							<!-- TESTIMONIALS SECTION : end -->
+							<!-- SERVICES SECTION : end -->
 
 							<!-- PARALLAX SECTION : begin -->
-							<section class="c-parallax-section m-dynamic" style="background-image: url( 'images/parallax_section_bg.jpg' );" data-videobg-id="KJO88Qhxwv4">
+							<section class="c-parallax-section m-dynamic" style="background-image: url( 'images/parallax_section_bg.jpg' );">
 								<div class="section-inner">
 
 									<header class="section-header textalign-center">
@@ -430,7 +432,53 @@
 									</header>
 
 									<div class="container">
-										<p class="textalign-center fontsize-medium max-width-800 margin-sides-auto">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided.</p>
+										<div class="row">
+											<div class="col-sm-3">
+
+												<!-- COUNTER : begin -->
+												<div class="c-counter" data-duration="1000">
+													<div class="counter-icon"><i class="fa fa-cog"></i></div>
+													<div class="counter-data"><span class="counter-value">3500</span>+</div>
+													<span class="counter-label">lines of code</span>
+												</div>
+												<!-- COUNTER : end -->
+
+											</div>
+											<div class="col-sm-3">
+
+												<!-- COUNTER : begin -->
+												<div class="c-counter" data-duration="1000">
+													<div class="counter-icon"><i class="fa fa-clock-o"></i></div>
+													<div class="counter-data"><span class="counter-value">300</span>+</div>
+													<span class="counter-label">hours of work</span>
+												</div>
+												<!-- COUNTER : end -->
+
+											</div>
+											<div class="col-sm-3">
+
+												<!-- COUNTER : begin -->
+												<div class="c-counter" data-duration="1000">
+													<div class="counter-icon"><i class="fa fa-html5"></i></div>
+													<div class="counter-data"><span class="counter-value">30</span>+</div>
+													<span class="counter-label">HTML files</span>
+												</div>
+												<!-- COUNTER : end -->
+
+											</div>
+											<div class="col-sm-3">
+
+												<!-- COUNTER : begin -->
+												<div class="c-counter" data-duration="1000">
+													<div class="counter-icon"><i class="fa fa-tint"></i></div>
+													<div class="counter-data"><span class="counter-value">4</span></div>
+													<span class="counter-label">color schemes</span>
+												</div>
+												<!-- COUNTER : end -->
+
+											</div>
+										</div>
+										<hr class="c-divider m-small m-transparent">
 										<p class="textalign-center"><a href="http://themeforest.net/user/LSVRthemes/portfolio?ref=LSVRthemes" class="c-button m-outline m-medium">Buy Vibes On ThemeForest</a></p>
 									</div>
 
@@ -438,92 +486,54 @@
 							</section>
 							<!-- PARALLAX SECTION : end -->
 
-							<!-- CONTACT SECTION : begin -->
-							<section class="c-section" id="contact">
+							<!-- BRANDS SECTION : begin -->
+							<section class="c-section">
 								<div class="section-inner">
 
 									<header class="section-header textalign-center">
 										<div class="container">
-											<h2>Get In Touch</h2>
+											<h2>Our Clients</h2>
 										</div>
 									</header>
 
 									<div class="container">
+										<div class="row">
+											<div class="col-sm-3">
 
-										<!-- CONTACT FORM : begin -->
-										<form id="contact-form" class="default-form m-ajax-form" action="ajax/contact-form.php" method="post" >
-											<input type="hidden" name="contact-form">
+												<!-- BRAND : begin -->
+												<p class="textalign-center"><img src="images/brand_01.jpg" alt=""></p>
+												<!-- BRAND : end -->
 
-											<!-- FORM VALIDATION ERROR MESSAGE : begin -->
-											<p class="c-alert-message m-warning m-validation-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>Please fill in all required (*) fields.</p>
-											<!-- FORM VALIDATION ERROR MESSAGE : end -->
-
-											<!-- SENDING REQUEST ERROR MESSAGE : begin -->
-											<p class="c-alert-message m-warning m-request-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>There was a connection problem. Try again later.</p>
-											<!-- SENDING REQUEST ERROR MESSAGE : end -->
-
-											<div class="row">
-												<div class="col-sm-4">
-
-													<!-- NAME FIELD : begin -->
-													<div class="form-field">
-														<label for="contact-name">Your Name <span>*</span></label>
-														<input id="contact-name" name="contact-name" class="m-required">
-													</div>
-													<!-- NAME FIELD : end -->
-
-													<!-- EMAIL FIELD : begin -->
-													<div class="form-field">
-														<label for="contact-email">Your Email Address <span>*</span></label>
-														<input id="contact-email" name="contact-email" class="m-required m-email">
-													</div>
-													<p style="display: none;">
-														<label for="contact-email-hp">Re Email Address</label>
-														<input id="contact-email-hp" name="contact-email-hp">
-													</p>
-													<!-- EMAIL FIELD : end -->
-
-													<!-- PHONE FIELD : begin -->
-													<div class="form-field">
-														<label for="contact-phone">Your Phone Number</label>
-														<input id="contact-phone" name="contact-phone">
-													</div>
-													<!-- PHONE FIELD : end -->
-
-												</div>
-												<div class="col-sm-8">
-
-													<!-- SUBJECT FIELD : begin -->
-													<div class="form-field">
-														<label for="contact-subject">Message Subject</label>
-														<input id="contact-subject" name="contact-subject">
-													</div>
-													<!-- SUBJECT FIELD : end -->
-
-													<!-- MESSAGE FIELD : begin -->
-													<div class="form-field">
-														<label for="contact-message">Message <span>*</span></label>
-														<textarea id="contact-message" name="contact-message" class="m-required"></textarea>
-													</div>
-													<!-- MESSAGE FIELD : end -->
-
-													<!-- SUBMIT BUTTON : begin -->
-													<div class="form-field">
-														<button class="submit-btn c-button" type="submit" data-label="Send Message" data-loading-label="Sending...">Send Message</button>
-													</div>
-													<!-- SUBMIT BUTTON : end -->
-
-												</div>
 											</div>
+											<div class="col-sm-3">
 
-										</form>
-										<!-- CONTACT FORM : end -->
+												<!-- BRAND : begin -->
+												<p class="textalign-center"><img src="images/brand_02.jpg" alt=""></p>
+												<!-- BRAND : end -->
 
+											</div>
+											<div class="col-sm-3">
+
+												<!-- BRAND : begin -->
+												<p class="textalign-center"><img src="images/brand_03.jpg" alt=""></p>
+												<!-- BRAND : end -->
+
+											</div>
+											<div class="col-sm-3">
+
+												<!-- BRAND : begin -->
+												<p class="textalign-center"><img src="images/brand_04.jpg" alt=""></p>
+												<!-- BRAND : end -->
+
+											</div>
+										</div>
 									</div>
+
+									<p class="textalign-center"><a href="#" class="c-button m-outline m-medium">Join Them</a></p>
 
 								</div>
 							</section>
-							<!-- CONTACT SECTION : end -->
+							<!-- BRANDS SECTION : end -->
 
 						</div>
 					</div>
@@ -556,18 +566,29 @@
 							</div>
 							<div class="col-md-4">
 
-								<!-- TWITTER WIDGET : begin -->
-								<div class="widget twitter-widget m-paginated" data-id="LSVRthemes" data-limit="3" data-interval="20000">
-									<h3 class="widget-title"><a href="https://twitter.com/LSVRthemes">@LSVRthemes</a></h3>
+								<!-- BLOG WIDGET : begin -->
+								<div class="widget blog-widget">
+									<h3 class="widget-title">Latest Posts</h3>
 									<div class="widget-content">
 
-										<div class="twitter-feed">
-											<span class="c-loading-anim"><span></span></span>
-										</div>
+										<ul>
+											<li>
+												<h4><a href="#">The Big Oxmox advised her</a></h4>
+												<p class="date">August 24, 2014</p>
+											</li>
+											<li>
+												<h4><a href="#">A small river named Duden</a></h4>
+												<p class="date">August 23, 2014</p>
+											</li>
+											<li>
+												<h4><a href="#">One day however a small line</a></h4>
+												<p class="date">August 22, 2014</p>
+											</li>
+										</ul>
 
 									</div>
 								</div>
-								<!-- TWITTER WIDGET : end -->
+								<!-- BLOG WIDGET : end -->
 
 							</div>
 							<div class="col-md-4">
@@ -624,14 +645,15 @@
 					<div class="row">
 						<div class="col-md-6 col-md-push-6">
 
-							<!-- FOOTER SOCIAL : begin -->
-							<ul class="footer-social">
-								<li><a href="https://twitter.com/LSVRthemes"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-							<!-- FOOTER SOCIAL : end -->
+							<!-- FOOTER MENU : begin -->
+							<nav class="footer-menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									<li><a href="http://demos.volovar.net/vibes.html/documentation/">Documentation</a></li>
+								</ul>
+							</nav>
+							<!-- FOOTER MENU : end -->
 
 						</div>
 						<div class="col-md-6 col-md-pull-6">
@@ -672,20 +694,32 @@
 				</nav>
 				<!-- SIDEBAR MENU : end -->
 
-				<!-- SIDEBAR MENU 2 : begin -->
-				<nav class="sidebar-menu">
-					<ul>
-						<li><a href="typography.html">Typography</a></li>
-						<li><a href="elements.html">Elements</a></li>
-						<li><a href="http://demos.volovar.net/vibes.html/documentation/">Documentation</a></li>
-					</ul>
-				</nav>
-				<!-- SIDEBAR MENU 2 : end -->
+				<!-- SIDEBAR SOCIAL : begin -->
+				<ul class="sidebar-social">
+					<li><a href="https://twitter.com/LSVRthemes"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				</ul>
+				<!-- SIDEBAR SOCIAL : end -->
 
 				<hr class="sidebar-divider">
 
 				<!-- SIDEBAR WIDGETS : begin -->
 				<div class="sidebar-widgets">
+
+					<!-- TWITTER WIDGET : begin -->
+					<div class="widget twitter-widget m-paginated" data-id="LSVRthemes" data-limit="3" data-interval="20000">
+						<h3 class="widget-title"><a href="https://twitter.com/LSVRthemes">@LSVRthemes</a></h3>
+						<div class="widget-content">
+
+							<div class="twitter-feed">
+								<span class="c-loading-anim"><span></span></span>
+							</div>
+
+						</div>
+					</div>
+					<!-- TWITTER WIDGET : end -->
 
 					<!-- TEXT WIDGET : begin -->
 					<div class="widget text-widget">
